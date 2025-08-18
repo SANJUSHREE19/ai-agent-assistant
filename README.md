@@ -23,18 +23,14 @@ A modular, tool-augmented AI agent powered by Hugging Face models. This assistan
 ai-agent-assistant/
 ├── app.py # Streamlit UI
 ├── main.py # AI agent logic
-├── .env # API keys (not pushed)
+├── .env # API keys (not pushed to GitHub)
+├── requirements.txt
+├── README.md
 ├── tools/
 │ ├── calculator_tool.py
 │ ├── calendar_tool.py
 │ ├── email_tool.py
 │ └── voice_input.py
-├── requirements.txt
-└── README.md
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -58,9 +54,6 @@ Frontend UI	Streamlit
 Deployment	GitHub + AWS EC2
 
 🖥️ Running Locally
-bash
-Copy
-Edit
 git clone https://github.com/SANJUSHREE19/ai-agent-assistant.git
 cd ai-agent-assistant
 
@@ -86,22 +79,7 @@ This project is for academic and personal learning purposes. Do not publish any 
 Sanjushree Golla
 GitHub: @SANJUSHREE19
 
-yaml
-Copy
-Edit
-
 ---
-
-## ✅ To Add This to GitHub
-
-1. Save it as `README.md` in your project folder
-2. Commit & push:
-
-```powershell
-git add README.md
-git commit -m "Add project README"
-git push -u origin main
-Let me know if you would like:
 
 ✅ Academic Report (DOCX or PDF)?
 
