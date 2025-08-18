@@ -1,0 +1,12 @@
+openai
+langchain-community
+chromadb
+python-dotenv
+streamlit
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+serpapi
+speechrecognition
+pyaudio
+psycopg2-binary
