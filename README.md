@@ -32,6 +32,9 @@ ai-agent-assistant/
 ├── requirements.txt
 └── README.md
 
+yaml
+Copy
+Edit
 
 ---
 
@@ -42,44 +45,68 @@ HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
 SERPAPI_API_KEY=your_serpapi_key
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
-🔒 Make sure .env is in .gitignore so secrets aren’t pushed.
+🔒 Make sure .env and any client_secret_*.json files are listed in your .gitignore file.
 
 🧠 Tech Stack
 Layer	Tool/Library
 LLM	Hugging Face Hub (falcon, flan)
 Tools	LangChain Tool Interface
-Web Search	DuckDuckGo
+Web Search	DuckDuckGoSearchRun (LangChain)
 Embeddings	sentence-transformers (MiniLM)
 Memory	ChromaDB
-UI	Streamlit
+Frontend UI	Streamlit
 Deployment	GitHub + AWS EC2
 
 🖥️ Running Locally
-
+bash
+Copy
+Edit
 git clone https://github.com/SANJUSHREE19/ai-agent-assistant.git
 cd ai-agent-assistant
+
 python -m venv venv
-venv\Scripts\activate        # or: source venv/bin/activate
+venv\Scripts\activate        # On Windows
+# source venv/bin/activate   # On macOS/Linux
+
 pip install -r requirements.txt
 streamlit run app.py
-Visit: http://localhost:8501
+Visit your app at: http://localhost:8501
 
 ☁️ Deployment Options
-AWS EC2 (Python + Streamlit)
+✅ AWS EC2 (Streamlit + Python)
 
-Streamlit Cloud
+✅ Streamlit Community Cloud
 
-Docker container (optional)
+✅ Optional Docker container for portability
 
 📘 License
-This project is for academic and personal use. Do not publish any exposed API keys.
+This project is for academic and personal learning purposes. Do not publish any API keys or secrets.
 
 🙋‍♀️ Author
 Sanjushree Golla
 GitHub: @SANJUSHREE19
+
+yaml
+Copy
+Edit
+
 ---
 
-Let me know if you'd like:
-- A full academic project report (PDF or DOCX)
-- Final-year PowerPoint slides
-- Help deploying to AWS EC2
+## ✅ To Add This to GitHub
+
+1. Save it as `README.md` in your project folder
+2. Commit & push:
+
+```powershell
+git add README.md
+git commit -m "Add project README"
+git push -u origin main
+Let me know if you would like:
+
+✅ Academic Report (DOCX or PDF)?
+
+✅ Final-Year Presentation PPT?
+
+✅ Help deploying to AWS EC2?
+
+Let’s wrap it up strong! 💪
