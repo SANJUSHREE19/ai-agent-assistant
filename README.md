@@ -23,14 +23,14 @@ A modular, tool-augmented AI agent powered by Hugging Face models. This assistan
 ai-agent-assistant/
 ├── app.py # Streamlit UI
 ├── main.py # AI agent logic
-├── .env # API keys (not pushed to GitHub)
-├── requirements.txt
-├── README.md
+├── .env # API keys (not pushed)
 ├── tools/
 │ ├── calculator_tool.py
 │ ├── calendar_tool.py
 │ ├── email_tool.py
 │ └── voice_input.py
+├── requirements.txt
+└── README.md 
 
 ---
 
