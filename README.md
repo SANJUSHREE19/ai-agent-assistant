@@ -9,7 +9,7 @@ A modular, tool-augmented AI agent powered by Hugging Face models. This assistan
 - 🧠 Uses free Hugging Face models (no OpenAI quota required)
 - 🔍 Real-time web search with DuckDuckGo
 - 🧮 Custom calculator tool
-- 📅 Google Calendar integration
+- 📅 Google Calendar  integration
 - 📧 Simulated email sending
 - 🧠 Memory system with ChromaDB (vector search)
 - 🎨 Streamlit frontend for simple UI
